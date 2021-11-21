@@ -1,0 +1,10 @@
+def summation(*args):
+    summ=0
+    for i in args:
+        for j in i:
+            summ=summ+j
+    print("The sum of numbers in the list is",summ)
+    return summ
+s=[8,2,3,0,7]
+
+summation(s)
